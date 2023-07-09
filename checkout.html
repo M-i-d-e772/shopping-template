@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="Index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#">
+            <img style="width: 80px;" class="logo" src="img/logo.png" alt="logo">
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <!-- <li><input id="search1" type="search" placeholder="Search Products..."></li> -->
+                <li><a href="Index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <!-- <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li> -->
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="checkout_page">
+        
+            <div class="page_1">
+
+                <div id="user_info">
+                    <input type="text" name="Name" id="Name" placeholder="Name">
+                    <input class="right" type="email" name="Email" id="Email" placeholder="Email">
+                </div>
+                
+                <div id="shipping_info">
+                    <h3>Shipping Information</h3>
+
+                    <div id="user_details">
+                    <input type="text" placeholder="Address...">
+                    <input class="right" type="text" placeholder="city..."><br>
+                    <input type="text" placeholder="State...">
+                    <input class="right" type="number" placeholder="Zip code...">
+                    </div>
+                </div>
+
+                <button>Continue</button>
+            </div>
+
+            <div class="page_2">
+                <div class="cart_btn">
+                <button>Back to cart</button>
+                </div>
+
+                <div id="summary">
+                    <h3 id="order">Order Summary</h3>
+
+                    <section id="table">
+                        <div class="product">
+                            <img width="90px" src="img/product1.jpg" alt="">
+                            <span class="product_name">Cartoon Astronaut T-shirts</span>
+                            <span>$92</span>
+                            <span>x2</span>
+                        </div>
+<!-- 
+                        <div class="product">
+                            <img width="90px" src="img/product1.jpg" alt="">
+                            <span>Cartoon Astronaut T-shirts</span>
+                            <span>$92</span>
+                            <span>x2</span>
+                        </div>
+
+                        <div class="product">
+                            <img width="90px" src="img/product1.jpg" alt="">
+                            <span>Cartoon Astronaut T-shirts</span>
+                            <span>$92</span>
+                            <span>x2</span>
+                        </div> -->
+                    </section>
+
+                    <div class="foot">
+                        <h3>Items:</h3>
+                        <h3 class="total">Total: $</h3>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+</body>
+</html>
